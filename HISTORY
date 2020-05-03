@@ -1,0 +1,20 @@
+How to download all the tickers?
+
+https://github.com/Benny-/Yahoo-ticker-symbol-downloader
+
+The download script takes long time to run, it needs days to finisH
+TODO: Use the desktop to download everything using the command
+python YahooTickerDownloader.py
+
+------------------------------------
+
+
+How to download data ?
+
+Let's compare two repos - ystockquote vs yahoo_historical
+
+ystockquote crashes when requesting data (it seems that yahoo changed request template)
+
+yahoo_historical successfully loads the data, and the Close price and Volume seem to be identical to the ones reported by Euronext
+
+
